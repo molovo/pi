@@ -1,0 +1,7 @@
+{
+  "name": "molovo/pi",
+  "require": {
+    "PHP": ">=5.5",
+    "molovo/pi-framework": "^0.1"
+  }
+}
