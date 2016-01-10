@@ -8,7 +8,7 @@
 
     <style media="screen">
         body {
-            background: url(/assets/img/stardust.jpg) top left repeat;
+            background: url(/assets/img/stardust.jpg) top left / 399px 399px repeat;
             font: 16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Open Sans","Helvetica Neue",sans-serif;
             border-top: 5px solid #3C91E6;
             padding: 0;
