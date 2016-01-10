@@ -20,7 +20,12 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
+            opacity: 0;
+            transition: opacity .25s .25s;
         }
+            .loaded header {
+                opacity: 1;
+            }
 
         h1 {
             font-family: 'GFS Didot';
@@ -43,5 +48,13 @@
         <h1>π</h1>
         <h2>Hello World</h2>
     </header>
+
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+            setTimeout(function() {
+                document.querySelector('body').classList.add('loaded');
+            }, 125);
+        });
+    </script>
 </body>
 </html>
