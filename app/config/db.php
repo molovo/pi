@@ -2,9 +2,10 @@
 
 return [
     'default' => [
-        'driver'   => 'mysqli',
-        'username' => '',
-        'password' => '',
-        'database' => '',
+        'driver'          => 'mysqli',
+        'username'        => '',
+        'password'        => '',
+        'database'        => '',
+        'model_namespace' => 'App\\Models\\',
     ],
 ];

@@ -41,7 +41,7 @@
 <body>
     <header>
         <h1>π</h1>
-        <h2>The little framework for big apps.</h2>
+        <h2>Hello World</h2>
     </header>
 </body>
 </html>
