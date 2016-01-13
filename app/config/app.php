@@ -1,5 +1,6 @@
 <?php
 
 return [
-    'name' => 'Pi',
+    'name'     => 'Pi',
+    'dev_mode' => false,
 ];
