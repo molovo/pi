@@ -2,5 +2,5 @@
 
 return [
     'name'     => 'Pi',
-    'dev_mode' => false,
+    'dev_mode' => true,
 ];

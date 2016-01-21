@@ -1,0 +1,34 @@
+$blue: #3c91e6
+$white: #fff
+
+body
+  background: url('/assets/img/stardust.jpg') top left / 399px 399px repeat
+  border-top: 5px solid $blue
+  font: 16px -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif
+  line-height: 1.5em
+  margin: 0
+  padding: 0
+
+header
+  left: 50%
+  opacity: 0
+  position: fixed
+  top: 50%
+  transform: translate(-50%, -50%)
+  transition: opacity .25s .25s
+
+  .loaded &
+    opacity: 1
+
+h1
+  color: $blue
+  font-family: 'GFS Didot'
+  font-size: 3em
+  line-height: 1em
+  margin: 0 0 .5em
+
+h2
+  color: $white
+  font-size: 2.25em
+  line-height: 1.333333333333333em
+  margin: 0 0 .6666666666666667em

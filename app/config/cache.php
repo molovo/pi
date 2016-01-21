@@ -1,5 +1,6 @@
 <?php
 
 return [
-    'driver' => 'file',
+    'driver'     => 'file',
+    'store_path' => APP_ROOT.'storage/cache',
 ];
