@@ -4,8 +4,9 @@
     <meta charset='UTF-8'>
     <title>Error</title>
 
-    <link href='https://fonts.googleapis.com/css?family=GFS+Didot&text=π' rel='stylesheet' />
-    <link rel='stylesheet' href='/assets/css/main.min.css' />
+    <style>
+        body{background:#3c91e6;font:16px -apple-system,BlinkMacSystemFont,'Helvetica Neue',sans-serif;line-height:1.5em;margin:0;padding:0}header{left:50%;opacity:0;position:fixed;top:50%;transform:translate(-50%,-50%);transition:opacity 0.25s 0.25s}.loaded header{opacity:1}.pug{width:3em;height:3em}h1{color:white;font-size:3em;line-height:1em;margin:0 0 .5em}
+    </style>
 </head>
 <body>
     <header>
@@ -17,6 +18,8 @@
         <h1>Sorry, something went wrong.</h1>
     </header>
 
-    <script src='/assets/js/main.min.js'></script>
+    <script>
+        (function(){window.addEventListener('DOMContentLoaded',function(){var callback;callback=function(){return document.body.classList.add('loaded');};return setTimeout(callback,125);});}).call(this);
+    </script>
 </body>
 </html>
