@@ -1,5 +1,5 @@
 {
-  "name": "molovo/pi",
+  "name": "molovo/pug",
   "autoload": {
     "psr-4": {
       "App\\": "app/"
@@ -7,6 +7,6 @@
   },
   "require": {
     "PHP": ">=5.5",
-    "molovo/pi-framework": "^0.2"
+    "molovo/pug-framework": "^0.2"
   }
 }

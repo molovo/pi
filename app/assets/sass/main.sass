@@ -2,9 +2,7 @@ $blue: #3c91e6
 $white: #fff
 
 body
-  // Background pattern from subtlepatterns.com
-  background: url('/assets/img/stardust.jpg') top left / 399px 399px repeat
-  border-top: 5px solid $blue
+  background: $blue
   font: 16px -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif
   line-height: 1.5em
   margin: 0
@@ -21,15 +19,12 @@ header
   .loaded &
     opacity: 1
 
+.pug
+  width: 3em
+  height: 3em
+
 h1
-  color: $blue
-  font-family: 'GFS Didot'
+  color: $white
   font-size: 3em
   line-height: 1em
   margin: 0 0 .5em
-
-h2
-  color: $white
-  font-size: 2.25em
-  line-height: 1.333333333333333em
-  margin: 0 0 .6666666666666667em
