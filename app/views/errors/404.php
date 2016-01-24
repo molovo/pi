@@ -9,8 +9,12 @@
 </head>
 <body>
     <header>
-        <h1>π</h1>
-        <h2>Sorry, that page could not be found.</h2>
+        <!--
+            Icon created by Eugen Belyakoff
+            from the Noun Project
+        -->
+        <?php include PUB_ROOT.'assets/img/pug.svg' ?>
+        <h1>Sorry, that page could not be found.</h1>
     </header>
 
     <script src='/assets/js/main.min.js'></script>
