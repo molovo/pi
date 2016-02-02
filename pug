@@ -5,7 +5,8 @@ define('DS', DIRECTORY_SEPARATOR);
 define('BASE_ROOT', __DIR__.DS);
 define('PUB_ROOT', BASE_ROOT.'public'.DS);
 define('APP_ROOT', BASE_ROOT.'app'.DS);
+define('APP_NAMESPACE', 'App\\');
 
 require 'vendor/autoload.php';
 
-Pi\Cli\Application::bootstrap();
+Pug\Cli\Application::bootstrap();

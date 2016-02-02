@@ -7,6 +7,6 @@
   },
   "require": {
     "PHP": ">=5.5",
-    "pugphp/framework": "^0.2"
+    "pugphp/framework": "^0.3"
   }
 }
