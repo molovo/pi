@@ -16,8 +16,8 @@ return [
     'css' => false,
 
     'sass' => [
-        'src'         => APP_ROOT.'assets/sass/*.sass',
-        'dest'        => PUB_ROOT.'assets/css',
+        'src'         => 'sass/*.sass',
+        'dest'        => 'css',
         'minify'      => true,
         'concatenate' => true,
         'output'      => 'main.min.css',
@@ -26,8 +26,8 @@ return [
     'js' => false,
 
     'coffee' => [
-        'src'         => APP_ROOT.'assets/coffee/*.coffee',
-        'dest'        => PUB_ROOT.'assets/js',
+        'src'         => 'coffee/*.coffee',
+        'dest'        => 'js',
         'minify'      => true,
         'concatenate' => true,
         'output'      => 'main.min.js',
