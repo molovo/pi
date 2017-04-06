@@ -1,0 +1,57 @@
+# The default cache config.
+#
+# This will be used automatically when using the static get and set
+# methods on the Cache class. As such, the following are equivalent
+#
+#     Cache::get('key');
+#     Cache::instance('default')->get('key');
+#
+default:
+  # The cache driver
+  #
+  # Can be one of 'file', 'redis', 'predis' or 'memcached'
+  driver: file
+
+  # The path to cache storage
+  store_path: storage/cache
+
+  # # Redis/Predis configuration (optional)
+  # #
+  # # The default configuration for the 'redis' and 'predis' drivers is shown
+  # # below. If you decide to use either of these drivers, the keys below only
+  # # need to be set if you wish to change them from the default
+  # hostname: 127.0.0.1
+  # post: 6739
+
+  # # Additionally, you may wish to use a socket connection, instead
+  # # of the default TCP. To do so, uncomment and edit this line instead:
+  # socket: /usr/local/var/run/redis.sock
+
+  # # Memcached configuration (optional)
+  #
+  # # The 'memcached' driver only accepts a single option - servers, which is
+  # # an array of arrays containing the hostname and port of each server in
+  # # your cluster. Just uncomment and edit the lines below if using memcached.
+  # servers:
+  #   -
+  #     - server1.example.com
+  #     - 11211
+  #   -
+  #     - server2.example.com
+  #     - 11211
+
+# # Additional instances
+
+# # You can add additional cache instances by creating additional YAML
+# # objects in this file. The root-level key will be used as the name of
+# # the cache instance. You can then call this additional instance:
+
+# #     $instance = Cache::instance('instance_name');
+# #     $value = $instance->get('key');
+
+# # Below is an example configuration for a redis instance. Just uncomment it
+# # and rename it to your preferred instance name.
+# redis:
+#   driver: redis
+#   host: 127.0.0.1
+#   port: 6739

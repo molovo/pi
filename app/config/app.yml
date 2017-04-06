@@ -1,0 +1,40 @@
+# Name
+#
+# The name of our application.
+name: My Awesome App
+
+# Domain
+#
+# The domain on which our application will be published. The domain is used
+# internally for things such as creating external URLs, setting referrer
+# headers, and binding application cookies to the correct domain.
+domain: localhost
+
+# Allow Origin
+#
+# Sets the value of the Access-Control-Allow-Origin header
+allow_origin: '*'
+
+# Base URI
+#
+# The value here is prepended to URIs within the application, allowing the
+# app to run correctly within a subfolder.
+base_uri: ''
+
+# Dev Mode
+#
+# If this is set to false, then errors are hidden from the user, with a
+# generic 500 error page being displayed instead. The template for this
+# page is found in `app/views/errors/500.php`.
+#
+# If set to true, then in the event of an error, the Whoops error handler
+# is shown, including a full stack trace leading to the point at which the
+# error occurred.
+dev_mode: true
+
+# Secret
+#
+# This is used for encryption and decryption. For extra security,
+# you should change this to a new randomly-generated 32-byte string
+# by running `./pug secure`.
+secret: abcdefghijklmnopqrstuvwxyz123456

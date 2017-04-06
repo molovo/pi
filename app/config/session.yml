@@ -1,0 +1,19 @@
+# The session driver
+#
+# Any of the supported cache drivers can be used
+driver: file
+
+# Session Store Path
+#
+# If using the file driver, this is the path in which session data will
+# be stored. Relative paths will be nested within `app`. Absolute paths
+# may be used instead.
+store_path: storage/sessions
+
+# Session ID Format
+#
+# A serial format which session IDs must adhere to, to ensure that the
+# session originated here. If a user's session ID does not match this format,
+# their session is destroyed and recreated. You should generate your own unique
+# serial by running `./pug secure`.
+id_format: X00XyyXX0XX00XX0yXyXXy0yXy0XXyXXXyXyy0yy00X0yyXyXX0X0XXy0yXyyXyy

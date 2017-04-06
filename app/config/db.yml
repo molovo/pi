@@ -1,0 +1,27 @@
+# The config for the default database instance
+#
+# This will be used by the Interrogate ORM when an instance
+# is not specified. As such, the following are equivalent
+#
+#     (new Query('table_name'))->fetch();
+#     (new Query('table_name', null, Database::instance('default')))->fetch();
+#     Database::instance('default')->fetch(new Query('table_name'));
+#
+default:
+  # The cache driver for this instance
+  #
+  # Driver can be one of `mysqli`, `pgsql`, `sqlite` or `pdo-mysql`
+  driver: mysqli
+
+  # The database username
+  username:
+
+  # The database password
+  password:
+
+  # The database name
+  database:
+
+  # The namespace in which model classes can be found,
+  # allowing for auto-discovery
+  model_namespace: App\\Models\\
