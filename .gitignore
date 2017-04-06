@@ -1,2 +1,7 @@
+# Composer stuff
 vendor/
 composer.lock
+
+# Node stuff
+node_modules/
+yarn.lock
